@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <style>
+    .menu {
+      display: flex;
+      align-items: flex-start;
+      background-color: rgb(39, 80, 116);
+    }
+
+    footer {
+      align-items: flex-start;
+      background-color: rgb(39, 80, 116);
+    }
+
+    div {
+      color: aliceblue;
+      margin: 20px;
+    }
+
+    li {
+      list-style: none;
+      font-size: large;
+    }
+
+    a {
+      text-decoration: none;
+      color: aliceblue
+    }
+
+    .left {
+      margin-left: 10%;
+      float: left;
+    }
+
+    .center {
+      display: flex;
+      flex-direction: column;
+      justify-items: center;
+      margin-left: 20%;
+    }
+
+    li:hover {
+      text-decoration: underline;
+    }
+
+    .right {
+      margin-left: 20%;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      gap: 5%;
+    }
+
+    .icon {
+      width: 70px;
+      height: 60px;
+      background-size: cover;
+      background-repeat: no-repeat;
+      background-position: center;
+      display: flex;
+      justify-items: center;
+    }
+
+    .fb {
+      background-image: url("fb_gray.png");
+    }
+
+    .fb:hover {
+      background-image: url("fb.png");
+    }
+
+    .inst {
+      background-image: url("insta_gray.png");
+    }
+
+    .inst:hover {
+      background-image: url("insta.png");
+    }
+
+    .yt {
+      background-image: url("youtube_gray.png");
+    }
+
+    .yt:hover {
+      background-image: url("youtube.png");
+    }
+
+    p {
+      color: aliceblue;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      padding-bottom: 10px;
+    }
+
+    hr {
+      border: none;
+      border-top: 1px solid aliceblue;
+      width: 90%;
+      margin: 15px auto;
+    }
+  </style>
+</head>
+
+<body>
+  <footer>
+    <div class="menu">
+      <div class="left">
+        <li><a href="#">Home</a></li>
+        <li><a href="#">About</a></li>
+        <li><a href="#">Gallery</a></li>
+        <li><a href="#">News</a></li>
+      </div>
+      <div class="center">
+        <li><a href="#">Blog</a></li>
+        <li><a href="#">FAQ</a></li>
+        <li><a href="#">Contacts</a></li>
+        <li><a href="#">Privacy & cookies</a></li>
+      </div>
+      <div class="right">
+        <div class="icon fb"></div>
+        <div class="icon inst"></div>
+        <div class="icon yt"></div>
+      </div>
+    </div>
+    <hr>
+    <p>Coperight Company 2018 - 2019</p>
+  </footer>
+</body>
+
+</html>
